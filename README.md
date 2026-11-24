@@ -6,6 +6,7 @@
 
 - 網頁版：`index.html`、`app.js`、`styles.css`
 - iOS：`QuickMemoryIOS/QuickMemoryIOS.xcodeproj`
+- JSON 備份格式：`JSON_FORMAT.md`
 - 資料同步說明：`SUPABASE_SYNC_SETUP.md`
 - UI/UX 與資料保護交接：`CLAUDE_UI_UX_HANDOFF.md`、`CLAUDE_UIUX_BRIEF.md`
 
