@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000011 /* QuickMemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* QuickMemoryApp.swift */; };
+		A10000000000000000000012 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* Models.swift */; };
+		A10000000000000000000013 /* StudyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* StudyStore.swift */; };
+		A10000000000000000000014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* ContentView.swift */; };
+		A10000000000000000000015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* QuickMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickMemoryApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* StudyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000007 /* QuickMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000031 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000032 /* QuickMemoryIOS */,
+				A10000000000000000000033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000032 /* QuickMemoryIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* QuickMemoryApp.swift */,
+				A10000000000000000000002 /* Models.swift */,
+				A10000000000000000000003 /* StudyStore.swift */,
+				A10000000000000000000004 /* ContentView.swift */,
+				A10000000000000000000006 /* Assets.xcassets */,
+				A10000000000000000000005 /* Info.plist */,
+			);
+			path = QuickMemoryIOS;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000007 /* QuickMemory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000041 /* QuickMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000042 /* Build configuration list for PBXNativeTarget "QuickMemory" */;
+			buildPhases = (
+				A10000000000000000000043 /* Sources */,
+				A10000000000000000000021 /* Frameworks */,
+				A10000000000000000000044 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickMemory;
+			productName = QuickMemory;
+			productReference = A10000000000000000000007 /* QuickMemory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A10000000000000000000041 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000052 /* Build configuration list for PBXProject "QuickMemoryIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = A10000000000000000000031;
+			productRefGroup = A10000000000000000000033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000041 /* QuickMemory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000015 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000011 /* QuickMemoryApp.swift in Sources */,
+				A10000000000000000000012 /* Models.swift in Sources */,
+				A10000000000000000000013 /* StudyStore.swift in Sources */,
+				A10000000000000000000014 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A10000000000000000000063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LGFTS964G;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuickMemoryIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhry716.QuickMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000000000000000064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2LGFTS964G;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = QuickMemoryIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhry716.QuickMemory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000042 /* Build configuration list for PBXNativeTarget "QuickMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000063 /* Debug */,
+				A10000000000000000000064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000052 /* Build configuration list for PBXProject "QuickMemoryIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000061 /* Debug */,
+				A10000000000000000000062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000051 /* Project object */;
+}

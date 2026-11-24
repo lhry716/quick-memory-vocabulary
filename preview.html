@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      (() => {
+        const stores = new Map();
+        const makeDb = () => ({
+          objectStoreNames: { contains: (name) => stores.has(name) },
+          createObjectStore: (name) => { stores.set(name, new Map()); },
+          transaction: (name) => {
+            const map = stores.get(name) || new Map();
+            const tx = { oncomplete: null, onerror: null, onabort: null, objectStore: () => ({
+              get: (key) => { const req = { result: map.get(key) || null, onsuccess: null, onerror: null }; setTimeout(() => req.onsuccess?.({ target: req }), 0); return req; },
+              put: (value, key) => { map.set(key, value); setTimeout(() => tx.oncomplete?.(), 0); }
+            })};
+            return tx;
+          }
+        });
+        window.indexedDB = { open: () => { const req = { result: makeDb(), onupgradeneeded: null, onsuccess: null, onerror: null }; setTimeout(() => { req.onupgradeneeded?.({ target: req }); req.onsuccess?.({ target: req }); }, 0); return req; } };
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="app-shell"><main id="app" tabindex="-1"></main></div>
+    <div id="modal-root"></div>
+    <input id="file-input" type="file" accept=".csv,.txt,text/csv,text/plain" hidden />
+    <input id="restore-input" type="file" accept="application/json,.json" hidden />
+    <script src="app.js"></script>
+  </body>
+</html>
